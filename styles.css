@@ -1,0 +1,35 @@
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(228, 45%, 44%);
+}
+.texts{
+    padding: auto 20px;
+}
+h2{
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.attribution {
+    margin: 4% auto;
+    border-radius: 15px 15px; 
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    flex-direction: column;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px 6px hsl(228, 45%, 44%);
+}
+img{
+    height: 280px;
+    width: 280px;
+    border-radius: 15px 15px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
